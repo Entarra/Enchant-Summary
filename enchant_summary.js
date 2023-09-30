@@ -1,0 +1,1 @@
+// document.querySelectorAll('#popup span[data-tippy-content]')[0].attributes
