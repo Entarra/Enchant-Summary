@@ -3,11 +3,13 @@
 
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name='keywords' content='game, rpg, mmorpg, pbbg, gamer, fantasy, role playing, browser based'>
     <link href='https://lyrania.co.uk/css/main.css?1678896119' rel='stylesheet' type='text/css' />
     <link href='https://lyrania.co.uk/css/main10.css?"1638239788' rel='stylesheet' type='text/css' />
-    <link rel='shortcut icon' href='https://lyrania.co.uk/favicon.ico' />
+    <link rel='shortcut icon' href='favicon.ico' />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-    <link href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="https//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
     <link href="https://lyrania.co.uk/dist/lib/bootstrap-4.1.3/css/bootstrap-grid.min.css" rel="stylesheet" />
 
     <title>Lyrania 3.1</title>
@@ -16,9 +18,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <script src="enchant_summary.js"></script>
+    <script>
+      function poke() {
+        let dot = document.createElement('div');
+        document.querySelector('#popup').appendChild(dot);
+      }
+    </script>
   </head>
 
-  <body>
+  <body onload="poke()">
     <div id="popup">
       <div class="inventory ml-1 pb-2">
         <div class="text-center mt-1 mb-1" id="invtop">

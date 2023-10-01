@@ -1,10 +1,1 @@
-- [] Get summary of currently equipped enchantments
-  - [] Check for inventory page
-  - [] Is stuff equipped?
-    - [] Is equipped stuff enchanted?
-    - [] Grab list of equipped items
-      - [] Grab list of filled enchant slots
-        - [] Grab effect from each filled slot
-        - [] Add items to a collection object
-        - [] Add UI
-        - [] Add Summary to UI
+![alt text](preview.png)
