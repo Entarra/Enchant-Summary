@@ -2,7 +2,7 @@
 // @name     		Inventory, Enchant Summary
 // @description Adds a small summary to the inventory screen
 // @namespace   https://lyrania.co.uk/game.php
-// @include     https://lyrania.co.uk/game.php
+// @match       https://lyrania.co.uk/game.php
 // @version     1.0
 // @grant       none
 // @run-at			document-end
