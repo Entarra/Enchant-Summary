@@ -10,21 +10,22 @@
 
 function enchant_summary() {
   const filters = [
-    { 'name': 'Critical-Hit Chance', 'tag': 'critical hit chance' },
-    { 'name': 'Attack', 'tag': 'attack boost' },
-    { 'name': 'Health', 'tag': 'health boost' },
     { 'name': 'Accuracy', 'tag': 'accuracy boost' },
-    { 'name': 'Weapon Power', 'tag': 'weapon power ' },
+    { 'name': 'Armour Power', 'tag': 'armour power' },
+    { 'name': 'Attack', 'tag': 'attack boost' },
+    { 'name': 'Critical-Hit Chance', 'tag': 'critical hit chance' },
     { 'name': 'Critical-Hit Damage', 'tag': 'critical hit damage' },
-    { 'name': 'Quest Boost', 'tag': 'quest boost' },
-    { 'name': 'Global Boost', 'tag': 'drop boost' },
     { 'name': 'Defence', 'tag': 'defence boost' },
     { 'name': 'Evasion', 'tag': 'evasion boost' },
-    { 'name': 'Taxonomy Boost', 'tag': 'taxonomy boost' },
-    { 'name': 'Stat Drop Boost', 'tag': 'stat drop boost' },
-    { 'name': 'Jade Drop', 'tag': 'jade finds' },
+    { 'name': 'Global Boost', 'tag': 'drop boost' },
+    { 'name': 'Health', 'tag': 'health boost' },
+    { 'name': 'Heroism', 'tag': 'heroism' },
     { 'name': 'Jack of all Jades', 'tag': 'jack of all jades' },
-    { 'name': 'Armour Power', 'tag': 'armour power' }
+    { 'name': 'Jade Drop', 'tag': 'jade finds' },
+    { 'name': 'Quest Boost', 'tag': 'quest boost' },
+    { 'name': 'Stat Drop Boost', 'tag': 'stat drop boost' },
+    { 'name': 'Taxonomy Boost', 'tag': 'taxonomy boost' },
+    { 'name': 'Weapon Power', 'tag': 'weapon power ' }
   ]
   let jewels = document.querySelectorAll('#popup span[data-tippy-content]');
   let sorted_enchants = {}
