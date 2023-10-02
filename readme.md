@@ -2,6 +2,8 @@
 ![A preview of the script in action, showing a detailed readout below the equipped items](documentation/preview.png)
 
 ## Requirements
+- The game must have the `Use Popup UI` mode enabled.
+
 This script requires a userscript addon, so please pick and install one of the options listed below based on your browser of choice
 - Microsoft Edge : [Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
 - Google Chrome : [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
