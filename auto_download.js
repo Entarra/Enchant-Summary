@@ -9,3 +9,9 @@
 // @grant        none
 // ==/UserScript==
 
+let observer = new MutationObserver(function () {
+
+});
+observer.observe(document.querySelector("#popup"), {
+  childList: true
+});
