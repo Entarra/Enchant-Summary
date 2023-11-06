@@ -7,7 +7,7 @@
     <meta name='keywords' content='game, rpg, mmorpg, pbbg, gamer, fantasy, role playing, browser based'>
     <link href='https://lyrania.co.uk/css/main.css?1678896119' rel='stylesheet' type='text/css' />
     <link href='https://lyrania.co.uk/css/main10.css?"1638239788' rel='stylesheet' type='text/css' />
-    <link rel='shortcut icon' href='favicon.ico' />
+    <link rel='shortcut icon' href='https://lyrania.co.uk/favicon.ico' />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
     <link href="https//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
     <link href="https://lyrania.co.uk/dist/lib/bootstrap-4.1.3/css/bootstrap-grid.min.css" rel="stylesheet" />
@@ -17,8 +17,21 @@
     <link href='https://lyrania.co.uk/css/streamstatus.css?1638239788' rel='stylesheet' type='text/css' />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='https://lyrania.co.uk/dist/js/game-min.js?1692491106'></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Berkshire+Swash&family=Cinzel+Decorative&family=Cinzel:wght@400;500&family=Josefin+Slab:wght@300&display=swap" rel="stylesheet">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js'></script>
+    <script src='https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js'></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
     <script src="../enchant_summary.js"></script>
     <script>
+      tippy.delegate('body', {
+        target: "[data-tippy-content]",
+        allowHTML: true,
+      });
       function poke() {
         let dot = document.createElement('div');
         document.querySelector('#popup').appendChild(dot);
